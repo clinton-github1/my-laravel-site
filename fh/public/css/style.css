@@ -1,0 +1,1201 @@
+html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+                margin: 0;
+            }
+
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .navbar {
+                text-align: center;
+                position: fixed;
+/*                position: absolute;*/
+                top: 0px;
+                right: 0px;
+                width: 100%;
+                height: 70px;
+                background: rgb(0, 0, 0);  
+               background: rgba(0, 0, 0, 0.5);
+/*                height: 100vh;*/
+            }
+
+            .logo {
+                text-align: center;
+                position: absolute;
+                top: 0px;
+                left: 1px;
+                height: 10%;
+                width: 21%;
+            }
+
+            .logo img{
+/*                opacity: 0.1;*/
+                position: absolute;
+            }
+
+            .content-1 {
+                text-align: center;
+                height: 100vh;
+            }
+
+            .title {
+                font-size: 84px;
+            }
+
+
+
+            .links{
+                padding-top: 20px;
+                padding-left: 400px;
+            }
+
+            .links > a {
+/*                color: #636b6f;*/
+                padding: 0px 25px;
+                color: white;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .links > a:hover {
+                color: yellowgreen;
+/*                background-color: rebeccapurple;*/
+                padding: 0 25px;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+                font-weight: 700;
+                color: black;
+            }
+
+
+/*       ################################# ICON MENU ####################################### */
+
+.small-nav-logo 
+{
+                text-align: center;
+                position: absolute;
+                top: 0px;
+                left: 1px;
+                height: 10%;
+                width: 70%;
+            }
+
+            .small-nav-logo img{
+/*                opacity: 0.1;*/
+                position: absolute;
+            }
+
+            .small-nav-menu{
+                width: 75%;
+                float: right;
+            }
+
+            .small-navbar{
+                display: flex;
+            }
+
+            .small-navbar span {
+                color: white;
+                font-weight: 900;
+                font-size: 150%;
+                padding-top: 20px;
+            }
+
+ .overlay-nav {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-nav-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay-nav a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.overlay-nav a:hover, .overlay-nav a:focus {
+  color: yellowgreen;
+}
+
+.overlay-nav .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay-nav {overflow-y: auto;}
+  .overlay-nav a {font-size: 20px}
+  .overlay-nav .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+/*       ################################# END ICON MENU ################################### */
+
+
+
+
+
+
+
+
+
+/*            ################################################################################*/
+
+#header-home{
+    height: 100vh;
+}
+
+.header-main {
+                height: 100%;
+                background-color: black;
+                width: 100%;
+                position: relative;
+                text-align: center;
+
+            }
+
+            
+            .header-main img {
+                width: 100%;
+                height: 100%;
+                opacity: 0.7;
+                position: relative;
+            }
+
+         .header-main .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: 900;
+                font-size: 500%;
+                color: white;
+
+                /*background: rgb(0, 0, 0); /* Fallback color */
+/*                background: rgba(0, 0, 0, 0.5);  Black background with 0.5 opacity */*/
+            }
+
+            .header-main .centered h3{
+                font-size: 50%;
+            }
+
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: 900;
+                font-size: 500%;
+                color: white;
+            }
+
+            
+
+            #home-about {
+                background-image: url("/images/home-about.jpg");
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            #home-services {
+                background-image: url("/images/home-services.jpg");
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            #home-contact {
+                background-image: url("/images/home-contact.jpg");
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+
+            .home-services-left {
+                position: absolute;
+/*                top: 110%;*/
+                left: 5%;
+                text-align: left;
+                font-weight: 900;
+                font-size: 450%;
+                color: white;
+
+            }
+
+            .home-services-left-heading {
+                padding-top: 10%;
+            }
+
+            .home-services-left p{
+                font-size: 30%;
+            }
+
+            .home-services-left h4{
+                padding-left: 10%;
+            }
+
+            .home-services-left h3{
+                padding-left: 10%;
+                padding-top: 0%;
+            }
+
+            .home-services-left > h3 > a {
+                text-decoration: none;
+                color: white;
+                border: solid white;
+                padding: 2%;
+                font-size: 40%;
+/*                border-left: 20%;*/
+            }
+
+            .home-services-left > h3 > a:hover {
+                color: yellowgreen;
+                border: solid yellowgreen;
+            }
+
+
+            
+
+
+
+
+/*       ################################ ABOUT US #####################     */
+.about-header, .dg-header, .opt-header, .bs-header {
+                height: 85vh;
+                background-color: black;
+/*                background-image: url('images/234.jpg');*/
+                /*background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;*/
+                width: 100%;
+                position: relative;
+                text-align: center;
+/*                color: darkred;*/
+
+
+            }
+
+            
+            .about-header img, .dg-header img, .opt-header img, .bs-header img {
+                width: 100%;
+                height: 100%;
+                opacity: 0.7;
+                position: relative;
+            }
+
+            .about-ttle {
+                height: 60vh;
+                width: 100%;
+/*                margin: 5% 10%;*/
+                text-align: left;
+/*                background-color: aliceblue;*/
+            }
+
+            .about-us{
+                height: 100vh;
+/*                background-color: darkred;*/
+            }
+
+            .about-us-top{
+                height: 30%;
+                display: flex;
+            }
+
+            .about-us-bottom{
+                height: 70%;
+                padding-top: 7%;
+            }
+
+            .about-us-bottom .title{
+                margin-left: 10%;
+                padding-top: 0%;
+                font-size: 54px;
+            }
+
+            .about-ttle .title{
+                font-size: 54px;
+                padding: 10% 10%;
+            }
+
+            .about-team-fh {
+                height: 50vh;
+                background-color: black;
+                color: #fff;
+            }
+
+            .about-team-fh .title{
+                margin-left: 10%;
+                padding-top: 5%;
+                font-size: 54px;
+                color: white;
+/*                font-family: linotype-didot, sans-serif;;*/
+/*                font-weight: 200;*/
+
+            }
+
+            .about-team-fh p{
+                margin-left: 10%;
+                font-size: 120%;
+            }
+
+            .about-we-do {
+                height: 55vh;
+/*                color: black;*/
+            }
+
+            .about-we-do .title{
+                margin-left: 10%;
+                padding-top: 10%;
+                font-size: 54px;
+/*                color: inherit;*/
+/*                font-family: linotype-didot, sans-serif;;*/
+/*                font-weight: 200;*/
+
+            }
+
+            .about-we-do p{
+                margin-left: 10%;
+                font-size: 120%;
+            }
+
+            .about-we-believe {
+                height: 50vh;
+/*                color: black;*/
+/*                background-color: yellowgreen;*/
+            }
+
+            .about-we-believe .title{
+                margin-left: 10%;
+                padding-top: 3%;
+                height: 20%;
+                font-size: 54px;
+/*                color: inherit;*/
+/*                background-color: blueviolet;*/
+/*                font-family: linotype-didot, sans-serif;;*/
+/*                font-weight: 200;*/
+
+            }
+
+            /*.about-we-believe p{
+                margin-left: 10%;
+                font-size: 120%;
+            }*/
+
+            .about-we-believe-container{
+                display: flex;
+                height: 80%;
+            }
+
+            .trust, .reliability, .collaboration-top, .collaboration, .extraordinary, .embrace, .digital-expe,.ecommerce-trans, .maintainance-opt {
+                height: 100%;
+                width: 33.3%;
+                
+            } 
+          .about-us-bottom p, .trust p, .reliability p, .collaboration-top p,.collaboration p, .extraordinary p, .embrace p, .digital-expe p,.ecommerce-trans p, .maintainance-opt p, .dg-experience p{
+                padding-left: 5%;
+                font-size: 120%;
+            } 
+
+            .h2 h4, .collaboration h4, .extraordinary h4, .embrace h4, .digital-expe h4,.ecommerce-trans h4, .maintainance-opt h4, .dg-experience h4{
+                padding-left: 5%;
+            } 
+            
+
+            .about-services {
+                height: 60vh;
+            }
+
+            .about-services-title{
+                height: 20%;
+            }
+
+            .about-services-title .title{
+                margin-left: 10%;
+                padding-top: 3%;
+                height: 20%;
+                font-size: 54px;
+/*                color: inherit;*/
+
+            }
+
+            .about-services-contents {
+                height: 80%;
+                display: flex;
+            }
+            .statement{
+                height: 50%;
+                margin-top: 20%;
+            }
+
+            .arrow-image {
+                height: 10%;
+                text-align: center;
+            }
+
+            .arrow-image img{
+                vertical-align: middle;
+                display: inline-block;
+                max-width: 100%;
+            }
+
+            .digital-expe > a,.ecommerce-trans > a, .maintainance-opt > a {
+                text-decoration: none;
+                color: inherit;
+            }
+
+
+
+
+/*       ################################ END ABOUT US ################# */
+
+/*       ################################ SERVICES #####################     */
+            .services-header {
+                height: 85vh;
+                background-color: black;
+/*                background-image: url('images/234.jpg');*/
+                /*background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;*/
+                width: 100%;
+                position: relative;
+                text-align: center;
+/*                color: darkred;*/
+
+
+            }
+
+            
+            .services-header img {
+                width: 100%;
+                height: 100%;
+                opacity: 0.7;
+                position: relative;
+            }
+
+            .our-services-1 {
+                height: 80vh;
+                margin-top: 5%;
+            }
+
+            .our-services-2 {
+                height: 80vh;
+                background-color: black;
+                color: white;
+/*                margin-top: 5%;*/
+            }
+
+            .our-services-3 {
+                height: 80vh;
+                background-color: white;
+                color: white;
+/*                margin-top: 5%;*/
+            }
+
+            .our-services-1-left{
+                width: 70%;
+            }
+
+            .our-services-1-right{
+                width: 30%;
+            }
+
+            .our-services-1 .title {
+                height: 20%;
+                font-size: 54px;
+                padding-left: 10%;
+                text-align: center;
+/*                background-color: darkred;*/
+            }
+
+            .our-services-2 .title {
+                height: 20%;
+                font-size: 54px;
+                padding-left: 10%;
+                color: white;
+                padding-top: 5%;
+/*                text-align: center;*/
+/*                background-color: darkred;*/
+            }
+
+            .our-services-3 .title {
+                height: 20%;
+                font-size: 54px;
+                padding-left: 10%;
+/*                color: inherit;*/
+                padding-top: 5%;
+/*                text-align: center;*/
+/*                background-color: darkred;*/
+            }
+
+            .our-services-contents {
+                height: 80%;
+/*                padding-top: 5%;*/
+/*                background-color: skyblue;*/
+            }
+
+            .our-services-1 p, .our-services-2 p, .our-services-3 p{
+                padding-left: 10%;
+                font-size: 120%;
+/*                color: inherit;*/
+            }
+
+            .our-services-3 p{
+                color: #636b6f;
+            }
+
+            .our-services-3 .our-services-contents h4{
+                color: #636b6f;
+            }
+
+            .our-services-contents h4{
+                padding-left: 10%;
+            }
+
+            .our-services-contents h3{
+                padding-left: 20%;
+                padding-top: 3%;
+            }
+
+            .our-services-contents > h3 > a {
+                text-decoration: none;
+                color: white;
+                border: solid white;
+                padding: 2%;
+                font-size: 120%;
+/*                border-left: 20%;*/
+            }
+
+            .our-services-3 .our-services-contents > h3 > a {
+                text-decoration: none;
+                color: black;
+                border: solid black;
+                padding: 2%;
+                font-size: 120%;
+/*                border-left: 20%;*/
+            }
+
+            .our-services-contents > h3 > a:hover {
+                color: yellowgreen;
+                border: solid yellowgreen;
+/*                border-left: 20%;*/
+            }
+
+       /* ########################################################## */
+
+            .dg-experience-ttle{
+                height: 50vh;
+            }
+
+            .dg-experience-ttle .title{
+                font-size: 54px;
+                padding: 5% 10%;
+
+            }
+
+            .dg-experience{
+                height: 200vh;
+                margin-top: 5%;
+                background-color: black;
+                color: white;
+            }
+
+            .dg-experience .title{
+                font-size: 54px;
+                padding: 5% 10%;
+                color: white;
+            }
+
+            .tailored{
+                height: 30%;
+/*                background-color: blueviolet;*/
+            }
+
+            .brilliant{
+                height: 30%;
+/*                background-color: blue;*/
+            }
+
+            .advanced{
+                height: 25%;
+            }
+
+            .brilliant .title, .advanced .title{
+                padding: 2% 10%;
+                color: white;
+                font-size: 50px;
+            }
+
+            .jeff-said{
+                height: 15%;
+/*                background-color: blueviolet;*/
+            }
+
+            .jeff-said .title{
+                padding: 0 10%;
+                font-size: 30px;
+            }
+
+            .jeff-said p{
+                font-style: italic;
+            }
+
+            .dg-exp-services {
+                height: 60vh;
+            }
+
+            .dg-exp-services .about-services {
+                height: 100%;
+            }
+
+            .dg-exp-services .digital-expe, .dg-exp-services .ecommerce-trans, .dg-exp-services .maintainance-opt{
+                width: 50%;
+            }
+
+
+/*        ############################################################    */
+
+           #more-services-container {
+            height: 100vh;
+/*            background-image: url("/images/bg-imgs/bg-4.jpg");*/
+            color: black;
+            /*background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;*/
+            margin-top: 10%;
+            margin-bottom: 10%;
+           }
+
+           #more-services-container .more-services{
+            height: 100%;
+/*            position: absolute;*/
+/*            left: 0%;*/
+            display: block;
+            padding: 0% 3% 0% 3%;
+/*            border: solid yellow;*/
+           }
+
+           .more-services-sec1, .more-services-sec2, .more-services-sec3 {
+            height: 33.33%;
+            max-width: 100%;
+            display: flex;
+/*            background-color: darkred;*/
+           }
+
+           .sec1-left, .sec1-right {
+/*            display: flex;*/
+
+            height: 100%;
+            width: 50%;
+            display: block;
+            float: left;
+           }
+
+           .sec1-left-top, .sec1-right-top {
+            height: 20%;
+            display: flex;
+           }
+
+           .sec1-left-bottom {
+            height: 80%;
+           }
+
+           .sec1-left-bottom p, .sec1-right-bottom p{
+            padding-right: 10%;
+            font-size: 120%;
+           }
+
+           .left-icon {
+            width: 15%;
+            height: 100%;
+           }
+
+           .left-icon img {
+            height: 100%;
+           }
+
+           .right-title {
+            width: 75%;
+            height: 100%;
+           }
+
+
+/*       ################################ END SERVICES ################# */
+
+/* ################################ TEAM #####################     */
+            .team-header {
+                height: 85vh;
+                background-color: black;
+/*                background-image: url('images/234.jpg');*/
+                /*background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;*/
+                width: 100%;
+                position: relative;
+                text-align: center;
+/*                color: darkred;*/
+
+
+            }
+
+            
+            .team-header img {
+                width: 100%;
+                height: 100%;
+                opacity: 0.7;
+                position: relative;
+            }
+
+            .team-ttle{
+                height: 50vh;
+/*                font-size: 30px;*/
+                margin: 10% 0% 10% 10%;
+            }
+
+            .team-ttle .title{
+                font-size: 54px;
+                height: 100%;
+            }
+
+
+            .team {
+                height: 200vh;
+                display: block;
+/*                background-color: yellowgreen;*/
+/*                margin-top: 10%;*/
+            }
+
+            .members-sec1, .members-sec2, .members-sec3 {
+                height: 33.33%;
+                display: flex;
+/*                float: left;*/
+/*                margin: 5% 15% 0% 15%;*/
+                width: 100%;
+                border-bottom: solid black;
+            }
+
+            .member {
+                width: 50%;
+                height: 100%;
+/*                margin-right: 5%;*/
+            }
+
+            .team-img {
+                height: 80%;
+                width: 100%;
+/*                background-color: black;*/
+
+            }
+
+            .team-img img{
+                height: 100%;
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+/*                padding: 0% 30%;*/
+/*                border-radius: 30%;*/
+            }
+
+            .name-content {
+                height: 10%;
+                text-align: center;
+                font-size: 150%;
+            }
+
+            .position-content {
+                height: 10%;
+                text-align: center;
+                font-size: 130%;
+                color: black;
+                font-weight: 900;
+            }
+
+
+/*       ################################ END TEAM ################# */
+
+/* ################################ CONTACT US #####################     */
+            .contact-header {
+                height: 85vh;
+                background-color: black;
+/*                background-image: url('images/234.jpg');*/
+                /*background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;*/
+                width: 100%;
+                position: relative;
+                text-align: center;
+/*                color: darkred;*/
+
+
+            }
+
+            
+            .contact-header img {
+                width: 100%;
+                height: 100%;
+                opacity: 0.6;
+                position: relative;
+            }
+
+            .contacts {
+                height: 50vh;
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 10%;
+                display: flex;
+            }
+
+            .phone-call, .whatsapp, .email {
+                height: 100%;
+                width: 33.33%;
+                text-align: center;
+            }
+
+            .phone-call h3, .whatsapp h3, .email h3{
+                font-size: 150%;
+
+            }
+
+            .phone-call p, .whatsapp p, .email p{
+                font-size: 130%;
+                color: black;
+                font-weight: 900;
+                
+            }
+
+            .contacts-bg {
+                height: 80vh;
+                background-image: url("/images/bg-imgs/bg-7.jpg");
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+/*    ========================================================        */
+
+.bg-img {
+                height: 100vh;
+                background-color: black;
+/*                background-image: url('images/234.jpg');*/
+                /*background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;*/
+                width: 100%;
+                position: relative;
+                text-align: center;
+/*                color: darkred;*/
+
+
+            }
+
+            
+            .bg-img img {
+                width: 100%;
+                height: 100%;
+                opacity: 0.9;
+                position: relative;
+            }
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*font-weight: 900;
+  font-size: 500%;*/
+  color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=number] , input[type=email], input[type=textarea]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.footer-container textarea {
+    width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+/*    ========================================================= */
+
+
+/*       ################################ END CONTACT US ################# */
+
+/* ################################ PROJECTS #####################     */
+            .projects-header {
+                height: 60vh;
+                background-color: black;
+/*                background-image: url('images/234.jpg');*/
+                /*background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;*/
+                width: 100%;
+                position: relative;
+                text-align: center;
+/*                color: darkred;*/
+
+
+            }
+
+            
+            .projects-header img {
+                width: 100%;
+                height: 100%;
+                opacity: 0.6;
+                position: relative;
+            }
+
+            .sample-projects {
+                height: 130vh;
+            }
+
+            .kongere {
+                height: 100%;
+                margin: 0% 10%;
+                width: 80%;
+            }
+
+            .kongere-ttle {
+                height: 15%;
+                width: 100%;
+            }
+
+            .kongere-imgs {
+                height: 85%;
+                width: 100%;
+            }
+
+            .kongere-imgs1 {
+                height: 50%;
+                display: flex;
+            }
+
+            .imgs {
+                width: 45%;
+                height: 90%;
+                margin: 5% 2.5%;
+            }
+
+            .imgs img {
+                height: 100%;
+                width: 100%;
+/*                padding: 5% 5%;*/
+            }
+
+            .kongere img {
+                height: 100%;
+            }
+
+
+/*       ################################ END PROJECTS ################# */
+
+/*    ################################## FOOTER ######################### */
+
+.footer {
+                height: 150vh;
+                background-color: whitesmoke;
+/*                background-image: url('images/234.jpg');*/
+                /*background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;*/
+                width: 100%;
+/*                position: relative;*/
+                text-align: center;
+                color: black;
+                margin-top: 5%;
+
+
+            }
+
+            
+            .footer img {
+                width: 100%;
+                height: 100%;
+                opacity: 0.9;
+                position: relative;
+            }
+
+            .footer-contacts{
+                width: 60%;
+                padding: 0 20%;
+                height: 20%;
+/*                background-color: darkred;*/
+            }
+
+            .footer-contacts .title {
+                height: 30%;
+                font-weight: 300;
+                text-align: center;
+                font-size: 50px;
+            }
+
+            .footer-contacts .footer-contact-stmnt {
+                height: 70%;
+                color: inherit;
+                text-align: center;
+                font-size: 120%;
+            }
+
+            .alert-success {
+                font-size: 120%;
+                color: red;
+            }
+
+/* Add styles to the form container */
+.footer-container {
+/*  position: absolute;*/
+/*  top: 50%;*/
+/*  left: 50%;*/
+/*  transform: translate(-50%, -50%);*/
+  /*font-weight: 900;
+  font-size: 500%;*/
+  color: black;
+  height: 70%;
+  width: 60%;
+  padding: 0 20%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=number] , input[type=email]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.footer-copyright {
+    height: 10%;
+    background-color: black;
+    width: 100%;
+    padding: 0%;
+    color: white;
+    display: flex;
+}
+.footer-media{
+    width: 60%;
+    text-align: left;
+    height: 60%;
+    padding: 2.5% 2% 0% 2%;
+    }
+.footer-media .fa {
+    padding: 0% 2%;
+    font-weight: 300;
+}
+.copyright {
+    width: 40%;
+    text-align: right;
+    height: 60%;
+    padding: 2.5% 2% 0% 2%;
+/*    background-color: darkred;*/
+}
+
+
+/*    ################################## END FOOTER ###################### */

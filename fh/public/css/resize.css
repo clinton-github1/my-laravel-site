@@ -1,0 +1,1755 @@
+@media (max-width: 500px){
+
+/*    ##################### HOME ################################## */
+            .links {
+                display: none;
+            }
+
+            
+           .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: 900;
+                font-size: 400%;
+                color: white;
+
+                /*background: rgb(0, 0, 0); /* Fallback color */
+/*                background: rgba(0, 0, 0, 0.5);  Black background with 0.5 opacity */*/
+            }
+
+
+            .home-services-left {
+                position: absolute;
+/*                top: 110%;*/
+                left: 5%;
+                text-align: left;
+                font-weight: 900;
+                font-size: 300%;
+                color: white;
+
+            }
+
+/*    ######################################### END HOME ###################################        */
+
+/*      ####################################### ABOUT US #################################### */
+         .about-ttle .title{
+                font-size: 35px;
+                padding: 5% 5%;
+            }
+
+            .about-us{
+                height: 200vh;
+/*                background-color: darkred;*/
+            }
+
+            .about-us-top{
+                height: 50%;
+                display: block;
+            }
+
+            .trust, .reliability, .collaboration-top{
+                height: 33.33%;
+                width: 100%;
+                float: left;
+                
+            } 
+
+            .about-us-bottom{
+                height: 50%;
+                padding-top: 7%;
+            }
+
+            .about-us-bottom .title{
+                margin-left: 5%;
+                font-size: 35px;
+            }
+
+            .about-team-fh {
+                height: 70vh;
+            }
+
+            .about-team-fh .title{
+                margin-left: 5%;
+                font-size: 35px;
+
+            }
+
+            .about-we-do {
+                height: 75vh;
+/*                color: black;*/
+            }
+
+            .about-we-do .title{
+                margin-left: 5%;
+                font-size: 35px;
+            }
+
+            .about-we-believe {
+                height: 120vh;
+/*                color: black;*/
+/*                background-color: yellowgreen;*/
+            }
+
+            .about-we-believe .title{
+                margin-left: 5%;
+                height: 10%;
+                font-size: 35px;
+            }
+
+            .about-we-believe-container{
+                display: block;
+                height: 90%;
+            }
+
+            .collaboration, .extraordinary, .embrace {
+                height: 33.33%;
+                width: 100%;
+                float: left;
+                
+            } 
+
+            .about-services {
+                height: 130vh;
+            }
+
+            .about-services-title{
+                height: 10%;
+            }
+
+            .about-services-title .title{
+                margin-left: 5%;
+                font-size: 35px;
+/*                color: inherit;*/
+
+            }
+
+            .about-services-contents {
+                height: 90%;
+                display: block;
+            }
+            .digital-expe,.ecommerce-trans, .maintainance-opt {
+                height: 33.33%;
+                width: 100%;
+                float: left;
+                
+            } 
+            .statement{
+                height: 60%;
+                margin-top: 10%;
+            }
+
+            .arrow-image {
+                height: 5%;
+            }
+
+/*       ###################################### END ABOUT US ################################# */
+
+/*       ##################################### OUR SERVICES ################################ */
+
+            .our-services1-title .title{
+                font-size: 35px;
+                text-align: left;
+                margin-left: 0%;
+            }
+
+            .our-services-1{
+                height: 70vh;
+            }
+
+            .our-services-2 {
+                height: 100vh;
+            }
+
+            .our-services-3 {
+                height: 100vh;
+            }
+
+            .our-services-1-left{
+                width: 100%;
+            }
+
+            .our-services-2 .title, .our-services-3 .title {
+                font-size: 35px;
+            }
+
+
+/* ########################################################## */
+            .dg-header, .bs-header, .opt-header{
+                height: 50vh;
+            }
+            .dg-experience-ttle{
+                height: 70vh;
+            }
+
+            .dg-experience-ttle .title{
+                font-size: 35px;
+                padding: 5% 5%;
+
+            }
+
+            .dg-experience{
+                height: 270vh;
+                margin-top: 5%;
+                background-color: black;
+                color: white;
+            }
+
+            .dg-experience .title{
+                font-size: 35px;
+                padding: 5% 15%;
+                color: white;
+            }
+
+            .tailored{
+                height: 30%;
+/*                background-color: blueviolet;*/
+            }
+
+            .brilliant{
+                height: 27%;
+/*                background-color: blue;*/
+            }
+
+            .advanced{
+                height: 25%;
+            }
+
+            .brilliant .title, .advanced .title{
+                padding: 2% 10%;
+                color: white;
+                font-size: 35px;
+            }
+
+            .jeff-said{
+                height: 18%;
+/*                background-color: blueviolet;*/
+            }
+
+            .jeff-said .title{
+                padding: 0 10%;
+                font-size: 30px;
+            }
+
+            .jeff-said p{
+                font-style: italic;
+            }
+
+            .dg-exp-services {
+                height: 90vh;
+            }
+
+            .dg-exp-services .about-services {
+                height: 100%;
+                display: block;
+            }
+
+            .dg-exp-services .digital-expe, .dg-exp-services .ecommerce-trans, .dg-exp-services .maintainance-opt{
+                width: 100%;
+                float: left;
+                height: 50%;
+            }
+
+
+/*        ############################################################    */
+
+
+
+
+
+            #more-services-container {
+            height: 300vh;
+/*            background-image: url("/images/bg-imgs/bg-4.jpg");*/
+            color: black;
+            /*background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;*/
+            margin-top: 10%;
+            margin-bottom: 10%;
+/*            background-color: skyblue;*/
+           }
+
+           #more-services-container .more-services{
+            height: 100%;
+/*            position: absolute;*/
+/*            left: 0%;*/
+            display: block;
+            padding: 0% 1% 0% 3%;
+/*            border: solid yellow;*/
+           }
+
+           .more-services-sec1, .more-services-sec2, .more-services-sec3 {
+            height: 33.33%;
+            max-width: 100%;
+            float: left;
+            display: block;
+
+            
+/*            background-color: darkred;*/
+           }
+
+           .sec1-left, .sec1-right {
+/*            display: flex;*/
+
+            height: 45%;
+            width: 100%;
+            display: block;
+            float: left;
+            margin-bottom: 5%;
+           }
+
+           .sec1-left-top, .sec1-right-top {
+            height: 20%;
+            display: flex;
+           }
+
+           .sec1-left-bottom {
+            height: 80%;
+            width: 100%;
+           }
+
+           .left-icon {
+            width: 30%;
+            height: 100%;
+           }
+
+           .right-title {
+            width: 70%;
+            height: 100%;
+           }
+/*       ####################################### END OUR SERVICES ########################### */
+
+/* ################################ TEAM #####################     */
+
+            .team-ttle{
+                height: 55vh;
+/*                font-size: 35px;*/
+                margin: 10% 0% 10% 5%;
+            }
+
+            .team-ttle .title{
+                font-size: 35px;
+            }
+
+
+            .team {
+                height: 350vh;
+                display: block;
+/*                background-color: yellowgreen;*/
+/*                margin-top: 10%;*/
+            }
+
+            .members-sec1, .members-sec2, .members-sec3 {
+                height: 33.33%;
+                display: block;
+                float: left;
+/*                margin: 5% 15% 0% 15%;*/
+                width: 100%;
+                border-bottom: none;
+            }
+
+            .member {
+                width: 100%;
+                height: 45%;
+                float: left;
+                margin-bottom: 5%;
+                border-bottom: solid black;
+
+/*                margin-right: 5%;*/
+            }
+
+            
+
+/*       ################################ END TEAM ################# */
+
+/*   ############################### CONTACT US ################## */
+         .contacts {
+            display: block;
+            height: 80vh;
+            }
+
+            .phone-call, .whatsapp, .email {
+                height: 33.33%;
+                width: 100%;
+                float: left;
+                text-align: center;
+            }
+/*   ################################ END CONTACTS ############## */
+
+
+/* ################################ PROJECTS #####################     */
+           
+            .sample-projects {
+                height: 200vh;
+            }
+
+            .kongere {
+                height: 100%;
+                margin: 0% 5%;
+                width: 90%;
+            }
+
+            .kongere-ttle {
+                height: 15%;
+                width: 100%;
+            }
+
+            .kongere-imgs {
+                height: 85%;
+                width: 100%;
+            }
+
+            .kongere-imgs1 {
+                height: 50%;
+                display: block;
+            }
+
+            .imgs {
+                width: 90%;
+                height: 45%;
+                float: left;
+                margin: 2.5% 5%;
+            }
+
+            .imgs img {
+                height: 100%;
+                width: 100%;
+/*                padding: 5% 5%;*/
+            }
+
+            .kongere img {
+                height: 100%;
+            }
+
+
+/*       ################################ END PROJECTS ################# */
+
+/*        ################################## FOOTER ####################### */
+           .footer {
+                height: 180vh;
+            }
+
+
+            .footer-contacts .title {
+                font-size: 35px;
+            }
+
+            
+
+.footer-copyright {
+    display: block;
+}
+.footer-media{
+    width: 100%;
+    text-align: center;
+    height: 50%;
+    float: left;
+    padding: 2% 0% 0% 0%;
+/*    padding: 2.5% 2% 0% 2%;*/
+    }
+    
+.copyright {
+    width: 100%;
+    text-align: center;
+    height: 50%;
+    float: left;
+    padding: 0% 0%;
+/*    padding: 2.5% 2% 0% 2%;*/
+/*    background-color: darkred;*/
+}
+
+/*        ################################# END OF FOOTER ################## */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 501px) and (max-width: 800px) {
+
+/*    ##################### HOME ################################## */
+            .links {
+                display: none;
+            }
+
+            
+           .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: 900;
+                font-size: 400%;
+                color: white;
+
+                /*background: rgb(0, 0, 0); /* Fallback color */
+/*                background: rgba(0, 0, 0, 0.5);  Black background with 0.5 opacity */*/
+            }
+
+
+            .home-services-left {
+                position: absolute;
+/*                top: 110%;*/
+                left: 5%;
+                text-align: left;
+                font-weight: 900;
+                font-size: 300%;
+                color: white;
+
+            }
+
+/*    ######################################### END HOME ###################################        */
+
+/*      ####################################### ABOUT US #################################### */
+         .about-ttle .title{
+                font-size: 35px;
+                padding: 5% 5%;
+            }
+
+            .about-us{
+                height: 200vh;
+/*                background-color: darkred;*/
+            }
+
+            .about-us-top{
+                height: 50%;
+                display: block;
+            }
+
+            .trust, .reliability, .collaboration-top{
+                height: 33.33%;
+                width: 100%;
+                float: left;
+                
+            } 
+
+            .about-us-bottom{
+                height: 50%;
+                padding-top: 7%;
+            }
+
+            .about-us-bottom .title{
+                margin-left: 5%;
+                font-size: 35px;
+            }
+
+            .about-team-fh {
+                height: 70vh;
+            }
+
+            .about-team-fh .title{
+                margin-left: 5%;
+                font-size: 35px;
+
+            }
+
+            .about-we-do {
+                height: 75vh;
+/*                color: black;*/
+            }
+
+            .about-we-do .title{
+                margin-left: 5%;
+                font-size: 35px;
+            }
+
+            .about-we-believe {
+                height: 120vh;
+/*                color: black;*/
+/*                background-color: yellowgreen;*/
+            }
+
+            .about-we-believe .title{
+                margin-left: 5%;
+                height: 10%;
+                font-size: 35px;
+            }
+
+            .about-we-believe-container{
+                display: block;
+                height: 90%;
+            }
+
+            .collaboration, .extraordinary, .embrace {
+                height: 33.33%;
+                width: 100%;
+                float: left;
+                
+            } 
+
+            .about-services {
+                height: 130vh;
+            }
+
+            .about-services-title{
+                height: 10%;
+            }
+
+            .about-services-title .title{
+                margin-left: 5%;
+                font-size: 35px;
+/*                color: inherit;*/
+
+            }
+
+            .about-services-contents {
+                height: 90%;
+                display: block;
+            }
+            .digital-expe,.ecommerce-trans, .maintainance-opt {
+                height: 33.33%;
+                width: 100%;
+                float: left;
+                
+            } 
+            .statement{
+                height: 60%;
+                margin-top: 10%;
+            }
+
+            .arrow-image {
+                height: 5%;
+            }
+
+/*       ###################################### END ABOUT US ################################# */
+
+/*       ##################################### OUR SERVICES ################################ */
+
+            .our-services1-title .title{
+                font-size: 35px;
+                text-align: left;
+                margin-left: 0%;
+            }
+
+            .our-services-1{
+                height: 70vh;
+            }
+
+            .our-services-2 {
+                height: 100vh;
+            }
+
+            .our-services-3 {
+                height: 100vh;
+            }
+
+            .our-services-1-left{
+                width: 100%;
+            }
+
+            .our-services-2 .title, .our-services-3 .title {
+                font-size: 35px;
+            }
+
+
+/* ########################################################## */
+            .dg-header, .bs-header, .opt-header{
+                height: 70vh;
+            }
+            .dg-experience-ttle{
+                height: 50vh;
+            }
+
+            .dg-experience-ttle .title{
+                font-size: 35px;
+                padding: 5% 5%;
+
+            }
+
+            .dg-experience{
+                height: 270vh;
+                margin-top: 5%;
+                background-color: black;
+                color: white;
+            }
+
+            .dg-experience .title{
+                font-size: 35px;
+                padding: 5% 15%;
+                color: white;
+            }
+
+            .tailored{
+                height: 30%;
+/*                background-color: blueviolet;*/
+            }
+
+            .brilliant{
+                height: 27%;
+/*                background-color: blue;*/
+            }
+
+            .advanced{
+                height: 25%;
+            }
+
+            .brilliant .title, .advanced .title{
+                padding: 2% 10%;
+                color: white;
+                font-size: 35px;
+            }
+
+            .jeff-said{
+                height: 18%;
+/*                background-color: blueviolet;*/
+            }
+
+            .jeff-said .title{
+                padding: 0 10%;
+                font-size: 30px;
+            }
+
+            .jeff-said p{
+                font-style: italic;
+            }
+
+            .dg-exp-services {
+                height: 90vh;
+            }
+
+            .dg-exp-services .about-services {
+                height: 100%;
+                display: block;
+            }
+
+            .dg-exp-services .digital-expe, .dg-exp-services .ecommerce-trans, .dg-exp-services .maintainance-opt{
+                width: 100%;
+                float: left;
+                height: 50%;
+            }
+
+
+/*        ############################################################    */
+
+
+
+
+
+            #more-services-container {
+            height: 300vh;
+/*            background-image: url("/images/bg-imgs/bg-4.jpg");*/
+            color: black;
+            /*background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;*/
+            margin-top: 10%;
+            margin-bottom: 10%;
+/*            background-color: skyblue;*/
+           }
+
+           #more-services-container .more-services{
+            height: 100%;
+/*            position: absolute;*/
+/*            left: 0%;*/
+            display: block;
+            padding: 0% 1% 0% 3%;
+/*            border: solid yellow;*/
+           }
+
+           .more-services-sec1, .more-services-sec2, .more-services-sec3 {
+            height: 33.33%;
+            max-width: 100%;
+            float: left;
+            display: block;
+
+            
+/*            background-color: darkred;*/
+           }
+
+           .sec1-left, .sec1-right {
+/*            display: flex;*/
+
+            height: 45%;
+            width: 100%;
+            display: block;
+            float: left;
+            margin-bottom: 5%;
+           }
+
+           .sec1-left-top, .sec1-right-top {
+            height: 20%;
+            display: flex;
+           }
+
+           .sec1-left-bottom {
+            height: 80%;
+            width: 100%;
+           }
+
+           .left-icon {
+            width: 30%;
+            height: 100%;
+           }
+
+           .right-title {
+            width: 70%;
+            height: 100%;
+           }
+/*       ####################################### END OUR SERVICES ########################### */
+
+/* ################################ TEAM #####################     */
+
+            .team-ttle{
+                height: 55vh;
+/*                font-size: 35px;*/
+                margin: 10% 0% 10% 5%;
+            }
+
+            .team-ttle .title{
+                font-size: 35px;
+            }
+
+
+            .team {
+                height: 600vh;
+                display: block;
+/*                background-color: yellowgreen;*/
+/*                margin-top: 10%;*/
+            }
+
+            .members-sec1, .members-sec2, .members-sec3 {
+                height: 33.33%;
+                display: block;
+                float: left;
+/*                margin: 5% 15% 0% 15%;*/
+                width: 100%;
+                border-bottom: none;
+            }
+
+            .member {
+                width: 100%;
+                height: 45%;
+                float: left;
+                margin-bottom: 5%;
+                border-bottom: solid black;
+
+/*                margin-right: 5%;*/
+            }
+
+            
+
+/*       ################################ END TEAM ################# */
+
+/*   ############################### CONTACT US ################## */
+         .contacts {
+            display: block;
+            height: 80vh;
+            }
+
+            .phone-call, .whatsapp, .email {
+                height: 33.33%;
+                width: 100%;
+                float: left;
+                text-align: center;
+            }
+/*   ################################ END CONTACTS ############## */
+
+
+/* ################################ PROJECTS #####################     */
+           
+            .sample-projects {
+                height: 200vh;
+            }
+
+            .kongere {
+                height: 100%;
+                margin: 0% 5%;
+                width: 90%;
+            }
+
+            .kongere-ttle {
+                height: 15%;
+                width: 100%;
+            }
+
+            .kongere-imgs {
+                height: 85%;
+                width: 100%;
+            }
+
+            .kongere-imgs1 {
+                height: 50%;
+                display: block;
+            }
+
+            .imgs {
+                width: 90%;
+                height: 45%;
+                float: left;
+                margin: 2.5% 5%;
+            }
+
+            .imgs img {
+                height: 100%;
+                width: 100%;
+/*                padding: 5% 5%;*/
+            }
+
+            .kongere img {
+                height: 100%;
+            }
+
+
+/*       ################################ END PROJECTS ################# */
+
+/*        ################################## FOOTER ####################### */
+           .footer {
+                height: 180vh;
+            }
+
+
+            .footer-contacts .title {
+                font-size: 35px;
+            }
+
+            
+
+.footer-copyright {
+    display: block;
+}
+.footer-media{
+    width: 100%;
+    text-align: center;
+    height: 50%;
+    float: left;
+    padding: 2% 0% 0% 0%;
+/*    padding: 2.5% 2% 0% 2%;*/
+    }
+    
+.copyright {
+    width: 100%;
+    text-align: center;
+    height: 50%;
+    float: left;
+    padding: 0% 0%;
+/*    padding: 2.5% 2% 0% 2%;*/
+/*    background-color: darkred;*/
+}
+
+/*        ################################# END OF FOOTER ################## */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 801px) and (max-width: 1000px) {
+
+/*    ##################### HOME ################################## */
+            
+            .small-navbar {
+                display: none;
+            }
+            .links{
+                padding-top: 20px;
+                padding-left: 250px;
+            }
+
+            .links > a {
+/*                color: #636b6f;*/
+                padding: 0px 5px;
+                font-size: 11px;
+            }
+
+            .links > a:hover {
+                color: yellowgreen;
+/*                background-color: rebeccapurple;*/
+                padding: 0 5px;
+                font-size: 11px;
+            }
+
+            .logo {
+
+                width: 35%;
+            }
+
+            
+           .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: 900;
+                font-size: 400%;
+                color: white;
+
+                /*background: rgb(0, 0, 0); /* Fallback color */
+/*                background: rgba(0, 0, 0, 0.5);  Black background with 0.5 opacity */*/
+            }
+
+
+            .home-services-left {
+                position: absolute;
+/*                top: 110%;*/
+                left: 5%;
+                text-align: left;
+                font-weight: 900;
+                font-size: 300%;
+                color: white;
+
+            }
+
+
+/*    ######################################### END HOME ###################################        */
+
+/*      ####################################### ABOUT US #################################### */
+         .about-ttle .title{
+                font-size: 35px;
+                padding: 5% 5%;
+            }
+
+            .about-us{
+                height: 200vh;
+/*                background-color: darkred;*/
+            }
+
+            .about-us-top{
+                height: 50%;
+                display: block;
+            }
+
+            .trust, .reliability, .collaboration-top{
+                height: 33.33%;
+                width: 100%;
+                float: left;
+                
+            } 
+
+            .about-us-bottom{
+                height: 50%;
+                padding-top: 7%;
+            }
+
+            .about-us-bottom .title{
+                margin-left: 5%;
+                font-size: 35px;
+            }
+
+            .about-team-fh {
+                height: 70vh;
+            }
+
+            .about-team-fh .title{
+                margin-left: 5%;
+                font-size: 35px;
+
+            }
+
+            .about-we-do {
+                height: 75vh;
+/*                color: black;*/
+            }
+
+            .about-we-do .title{
+                margin-left: 5%;
+                font-size: 35px;
+            }
+
+            .about-we-believe {
+                height: 120vh;
+/*                color: black;*/
+/*                background-color: yellowgreen;*/
+            }
+
+            .about-we-believe .title{
+                margin-left: 5%;
+                height: 10%;
+                font-size: 35px;
+            }
+
+            .about-we-believe-container{
+                display: block;
+                height: 90%;
+            }
+
+            .collaboration, .extraordinary, .embrace {
+                height: 33.33%;
+                width: 100%;
+                float: left;
+                
+            } 
+
+            .about-services {
+                height: 130vh;
+            }
+
+            .about-services-title{
+                height: 10%;
+            }
+
+            .about-services-title .title{
+                margin-left: 5%;
+                font-size: 35px;
+/*                color: inherit;*/
+
+            }
+
+            .about-services-contents {
+                height: 90%;
+                display: block;
+            }
+            .digital-expe,.ecommerce-trans, .maintainance-opt {
+                height: 33.33%;
+                width: 100%;
+                float: left;
+                
+            } 
+            .statement{
+                height: 60%;
+                margin-top: 10%;
+            }
+
+            .arrow-image {
+                height: 5%;
+            }
+
+/*       ###################################### END ABOUT US ################################# */
+
+/*       ##################################### OUR SERVICES ################################ */
+
+            .our-services1-title .title{
+                font-size: 35px;
+                text-align: left;
+                margin-left: 0%;
+            }
+
+            .our-services-1{
+                height: 70vh;
+            }
+
+            .our-services-2 {
+                height: 100vh;
+            }
+
+            .our-services-3 {
+                height: 100vh;
+            }
+
+            .our-services-1-left{
+                width: 100%;
+            }
+
+            .our-services-2 .title, .our-services-3 .title {
+                font-size: 35px;
+            }
+
+
+/* ########################################################## */
+            .dg-header, .bs-header, .opt-header{
+                height: 80vh;
+            }
+            .dg-experience-ttle{
+                height: 50vh;
+            }
+
+            .dg-experience-ttle .title{
+                font-size: 35px;
+                padding: 5% 5%;
+
+            }
+
+            .dg-experience{
+                height: 200vh;
+                margin-top: 5%;
+                background-color: black;
+                color: white;
+            }
+
+            .dg-experience .title{
+                font-size: 35px;
+                padding: 5% 15%;
+                color: white;
+            }
+
+            .tailored{
+                height: 30%;
+/*                background-color: blueviolet;*/
+            }
+
+            .brilliant{
+                height: 27%;
+/*                background-color: blue;*/
+            }
+
+            .advanced{
+                height: 25%;
+            }
+
+            .brilliant .title, .advanced .title{
+                padding: 2% 10%;
+                color: white;
+                font-size: 35px;
+            }
+
+            .jeff-said{
+                height: 18%;
+/*                background-color: blueviolet;*/
+            }
+
+            .jeff-said .title{
+                padding: 0 10%;
+                font-size: 30px;
+            }
+
+            .jeff-said p{
+                font-style: italic;
+            }
+
+            .dg-exp-services {
+                height: 70vh;
+            }
+
+            .dg-exp-services .about-services-title{
+                height: 30%;
+            }
+
+            .dg-exp-services .about-services-contents{
+                height: 70%;
+                display: flex;
+            }
+
+            .dg-exp-services .digital-expe, .dg-exp-services .ecommerce-trans, .dg-exp-services .maintainance-opt{
+                width: 50%;
+                float: left;
+                height: 100%;
+            }
+
+
+/*        ############################################################    */
+
+
+
+
+
+            #more-services-container {
+            height: 300vh;
+/*            background-image: url("/images/bg-imgs/bg-4.jpg");*/
+            color: black;
+            /*background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;*/
+            margin-top: 10%;
+            margin-bottom: 10%;
+/*            background-color: skyblue;*/
+           }
+
+           #more-services-container .more-services{
+            height: 100%;
+/*            position: absolute;*/
+/*            left: 0%;*/
+            display: block;
+            padding: 0% 1% 0% 3%;
+/*            border: solid yellow;*/
+           }
+
+           .more-services-sec1, .more-services-sec2, .more-services-sec3 {
+            height: 33.33%;
+            max-width: 100%;
+            float: left;
+            display: block;
+
+            
+/*            background-color: darkred;*/
+           }
+
+           .sec1-left, .sec1-right {
+/*            display: flex;*/
+
+            height: 45%;
+            width: 100%;
+            display: block;
+            float: left;
+            margin-bottom: 5%;
+           }
+
+           .sec1-left-top, .sec1-right-top {
+            height: 20%;
+            display: flex;
+           }
+
+           .sec1-left-bottom {
+            height: 80%;
+            width: 100%;
+           }
+
+           .left-icon {
+            width: 30%;
+            height: 100%;
+           }
+
+           .right-title {
+            width: 70%;
+            height: 100%;
+           }
+/*       ####################################### END OUR SERVICES ########################### */
+
+/* ################################ TEAM #####################     */
+
+            .team-ttle{
+                height: 55vh;
+/*                font-size: 35px;*/
+                margin: 10% 0% 10% 5%;
+            }
+
+            .team-ttle .title{
+                font-size: 35px;
+            }
+
+
+            .team {
+                height: 160vh;
+                display: block;
+/*                background-color: yellowgreen;*/
+/*                margin-top: 10%;*/
+            }
+
+            .members-sec1, .members-sec2, .members-sec3 {
+                height: 33.33%;
+                display: flex;
+/*                float: left;*/
+/*                margin: 5% 15% 0% 15%;*/
+                width: 100%;
+                border-bottom: solid black;
+            }
+
+            .member {
+                width: 50%;
+                height: 100%;
+/*                float: left;*/
+/*                margin-bottom: 5%;*/
+/*                border-bottom: solid black;*/
+
+/*                margin-right: 5%;*/
+            }
+
+            
+
+/*       ################################ END TEAM ################# */
+
+/*   ############################### CONTACT US ################## */
+         .contacts {
+            display: block;
+            height: 80vh;
+            }
+
+            .phone-call, .whatsapp, .email {
+                height: 33.33%;
+                width: 100%;
+                float: left;
+                text-align: center;
+            }
+/*   ################################ END CONTACTS ############## */
+
+
+/* ################################ PROJECTS #####################     */
+           
+            .sample-projects {
+                height: 250vh;
+            }
+
+            .kongere {
+                height: 100%;
+                margin: 0% 5%;
+                width: 90%;
+            }
+
+            .kongere-ttle {
+                height: 15%;
+                width: 100%;
+            }
+
+            .kongere-imgs {
+                height: 85%;
+                width: 100%;
+            }
+
+            .kongere-imgs1 {
+                height: 50%;
+                display: block;
+            }
+
+            .imgs {
+                width: 90%;
+                height: 45%;
+                float: left;
+                margin: 2.5% 5%;
+            }
+
+            .imgs img {
+                height: 100%;
+                width: 100%;
+/*                padding: 5% 5%;*/
+            }
+
+            .kongere img {
+                height: 100%;
+            }
+
+
+/*       ################################ END PROJECTS ################# */
+
+
+/*        ################################## FOOTER ####################### */
+           .footer {
+                height: 180vh;
+            }
+
+
+            .footer-contacts .title {
+                font-size: 35px;
+            }
+
+            
+
+.footer-copyright {
+    display: block;
+}
+.footer-media{
+    width: 100%;
+    text-align: center;
+    height: 50%;
+    float: left;
+    padding: 2% 0% 0% 0%;
+/*    padding: 2.5% 2% 0% 2%;*/
+    }
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    height: 50%;
+    float: left;
+    padding: 0% 0%;
+/*    padding: 2.5% 2% 0% 2%;*/
+/*    background-color: darkred;*/
+}
+
+/*        ################################# END OF FOOTER ################## */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1001px) and (max-width: 1188px){
+
+
+            .logo {
+
+                width: 30%;
+            }
+
+            .small-navbar {
+                display: none;
+            }
+
+            .links{
+                padding-left: 300px;
+            }
+
+            .links > a {
+                padding: 0px 10px;
+            }
+
+            .links > a:hover {
+                padding: 0 10px;
+            }
+
+
+/*            ################################################################################*/
+
+
+
+/*       ################################ ABOUT US #####################     */
+
+            .about-ttle {
+                height: 80vh;
+               
+            }
+
+            .about-us{
+                height: 130vh;
+            }
+
+           
+
+            .about-team-fh {
+                height: 60vh;
+            }
+
+
+            .about-we-do {
+                height: 70vh;
+            }
+
+            .about-we-believe {
+                height: 70vh;
+            }
+
+            .about-we-believe-container{
+                display: flex;
+                height: 80%;
+            }
+
+            .trust, .reliability, .collaboration-top, .collaboration, .extraordinary, .embrace, .digital-expe,.ecommerce-trans, .maintainance-opt {
+                height: 100%;
+                width: 33.3%;
+                
+            } 
+          .about-us-bottom p, .trust p, .reliability p, .collaboration-top p,.collaboration p, .extraordinary p, .embrace p, .digital-expe p,.ecommerce-trans p, .maintainance-opt p, .dg-experience p{
+                padding-left: 5%;
+                font-size: 120%;
+            } 
+
+            .h2 h4, .collaboration h4, .extraordinary h4, .embrace h4, .digital-expe h4,.ecommerce-trans h4, .maintainance-opt h4, .dg-experience h4{
+                padding-left: 5%;
+            } 
+            
+
+            .about-services {
+                height: 90vh;
+            }
+
+/*       ################################ END ABOUT US ################# */
+
+/*       ################################ SERVICES #####################     */
+
+            .our-services-1 {
+                height: 90vh;
+            }
+
+            .our-services-2 {
+                height: 90vh;
+            }
+
+            .our-services-3 {
+                height: 90vh;
+            }
+
+
+       /* ########################################################## */
+
+            .dg-experience-ttle{
+                height: 80vh;
+            }
+
+            .dg-experience{
+                height: 250vh;
+            }
+
+/*        ############################################################    */
+
+           #more-services-container {
+            height: 150vh;
+           }
+
+
+           
+
+           .left-icon {
+            width: 25%;
+            }
+
+
+           .right-title {
+            width: 75%;
+           }
+
+
+/*       ################################ END SERVICES ################# */
+
+/* ################################ TEAM #####################     */
+
+            .team-ttle{
+                height: 60vh;
+            }
+
+            .team {
+                height: 180vh;
+
+            }
+
+
+/*       ################################ END TEAM ################# */
+
+/* ################################ CONTACT US #####################     */
+            
+
+
+/*       ################################ END CONTACT US ################# */
+
+/* ################################ PROJECTS #####################     */
+           
+
+            .sample-projects {
+                height: 130vh;
+            }
+
+            .kongere-ttle {
+                height: 20%;
+            }
+
+            .kongere-imgs {
+                height: 80%;
+            }
+
+
+/*       ################################ END PROJECTS ################# */
+
+/*    ################################## FOOTER ######################### */
+
+.footer {
+                height: 170vh;
+                background-color: whitesmoke;
+/*                background-image: url('images/234.jpg');*/
+                /*background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;*/
+                width: 100%;
+/*                position: relative;*/
+                text-align: center;
+                color: black;
+                margin-top: 5%;
+
+
+            }
+
+            
+            .footer img {
+                width: 100%;
+                height: 100%;
+                opacity: 0.9;
+                position: relative;
+            }
+
+            .footer-contacts{
+                width: 60%;
+                padding: 0 20%;
+                height: 20%;
+/*                background-color: darkred;*/
+            }
+
+            .footer-contacts .title {
+                height: 30%;
+                font-weight: 300;
+                text-align: center;
+                font-size: 50px;
+            }
+
+            .footer-contacts .footer-contact-stmnt {
+                height: 70%;
+                color: inherit;
+                text-align: center;
+                font-size: 120%;
+            }
+
+/* Add styles to the form container */
+.footer-container {
+/*  position: absolute;*/
+/*  top: 50%;*/
+/*  left: 50%;*/
+/*  transform: translate(-50%, -50%);*/
+  /*font-weight: 900;
+  font-size: 500%;*/
+  color: black;
+  height: 70%;
+  width: 60%;
+  padding: 0 20%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=number] , input[type=email]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.footer-copyright {
+    height: 10%;
+    background-color: black;
+    width: 100%;
+    padding: 0%;
+    color: white;
+    display: flex;
+}
+.footer-media{
+    width: 50%;
+    text-align: left;
+    height: 60%;
+    padding: 2.5% 2% 0% 2%;
+    }
+.footer-media .fa {
+    padding: 0% 2%;
+    font-weight: 300;
+}
+.copyright {
+    width: 50%;
+    text-align: right;
+    height: 60%;
+    padding: 2.5% 2% 0% 2%;
+/*    background-color: darkred;*/
+}
+
+
+/*    ################################## END FOOTER ###################### */
+
+}
+
+@media (min-width: 1189px){
+    .small-navbar{
+        display: none;
+    }
+}
